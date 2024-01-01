@@ -24,7 +24,7 @@ const ALL_USERS = [
 ];
 
 function user(username, password) {
-  return (user = false);
+  let user = false;
 
   for (let i = 0; i < ALL_USERS.length; i++) {
     if (
